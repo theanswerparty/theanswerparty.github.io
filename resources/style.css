@@ -1,0 +1,38 @@
+body {
+	background-color: #eee;
+	color: #111;
+	margin: auto;
+}
+
+ul#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #111;
+	position: fixed;
+	height: auto;
+	overflow: auto;
+}
+
+li a {
+	display: block;
+	color: #eee;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a#active{
+	background-color: #eee;
+	color: #111;
+}
+
+li a:hover:not(#active) {
+	background-color: #eee;
+	color: #111;
+}
+
+#main {
+	margin-left: 25%;
+	height: auto;
+}
