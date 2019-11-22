@@ -11,6 +11,15 @@ body {
 	margin-top: 1%;
 }
 
+#logo {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: auto;
+	margin-right: 1%;
+	width: 15%;
+}
+
 ul#menu {
 	list-style-type: none;
 	margin: 0;
@@ -40,13 +49,9 @@ li a:hover:not(#active) {
 	color: #111;
 }
 
-li img {
-	width: 100%;
-	margin-bottom: -4px;
-}
-
 #main {
 	margin-left: 25%;
+	margin-right: 15%;
 	height: auto;
 }
 
@@ -65,21 +70,27 @@ li img {
 }
 
 .grid {
-	width: 75%;
+	width: 80%;
 	margin: auto;
 	margin-top: 5%;
+	border-collapse: collapse;
+	border-style: hidden;
 }
 
 .grid td {
 	vertical-align: top;
+	border: 1px dotted black;
 	text-align: right;
-	border: 0.1em solid black;
-	padding: 1%;
+	padding: 3%;
 	width: 50%;
 }
 
 .grid td h3 {
 	text-align: left;
+}
+
+.grid td p {
+	margin-bottom: 4%;
 }
 
 hr, .disclaimer {
