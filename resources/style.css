@@ -69,30 +69,6 @@ li a:hover:not(#active) {
 	margin-right: 20%;
 }
 
-.grid {
-	width: 80%;
-	margin: auto;
-	margin-top: 5%;
-	border-collapse: collapse;
-	border-style: hidden;
-}
-
-.grid td {
-	vertical-align: top;
-	border: 1px dotted black;
-	text-align: right;
-	padding: 3%;
-	width: 50%;
-}
-
-.grid td h3 {
-	text-align: left;
-}
-
-.grid td p {
-	margin-bottom: 4%;
-}
-
 hr, .disclaimer {
 	width: auto;
 	margin-left: 10%;
@@ -110,4 +86,28 @@ hr, .disclaimer {
 	margin: auto;
 	margin-top: 3%;
 	margin-left: 10%;
+}
+
+.header {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+
+.text {
+	width: auto;
+	margin-left: 15%;
+	margin-right: 20%;
+}
+
+#refs {
+	width: auto;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+
+.source {
+	text-indent: -5%;
+	padding-left: 5%;
 }
